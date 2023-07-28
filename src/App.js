@@ -8,7 +8,7 @@ export default function App() {
     <div className="App">
       <Hellofun />
       <HelloCla />
-      <HelloProp name="Mango" />
+      <HelloProp name="Mango" weight="20gm" />
     </div>
   );
 }
