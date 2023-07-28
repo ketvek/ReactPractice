@@ -1,6 +1,6 @@
 import React from "react";
 function Hellofun() {
-  return <h1>hello</h1>;
+  return <h1>Hello From Function component</h1>;
 }
 
 export default Hellofun;
