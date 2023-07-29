@@ -1,6 +1,15 @@
 import react from "react";
 
 function comment(props){
+
+  const comment = {
+  date: new Date(),
+  text: 'I hope you enjoy learning React!',
+  author: {
+    name: 'Hello Kitty',
+    avatarUrl: 'http://placekitten.com/g/64/64'
+  }
+};
     return (
     <div className="Comment">
     <div className="UserInfo">
@@ -20,3 +29,5 @@ function comment(props){
   </div>
 );
 }
+
+export default Comment;
