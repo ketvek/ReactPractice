@@ -11,9 +11,9 @@ export default function App() {
       <HelloCla />
       <HelloProp name="Mango" weight="20gm" />
       <Comment
-    date={comment.date}
-    text={comment.text}
-    author={comment.author} />
+    date={Comment.date}
+    text={Comment.text}
+    author={Comment.author} />
     </div>
   );
 }
