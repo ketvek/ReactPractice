@@ -1,6 +1,7 @@
 import "./styles.css";
 import MyButton from "./components/MyButton";
 import Profile from "./components/Profile";
+import UseOfMap from "./components/UseOfMap";
 /* import Hellofun from "./components/Hellofun";
 import HelloCla from "./components/HelloCla";
 import HelloProp from "./components/HelloProp";
@@ -29,6 +30,7 @@ export default function App() {
       <h1>Welcome Guys</h1>
       <Profile />
       <MyButton />
+      <UseOfMap />
     </div>
   );
 }
