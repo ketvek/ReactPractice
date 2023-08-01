@@ -7,7 +7,9 @@ export default function MyState() {
   }
   return (
     <>
-      <button onClick={hendleEvent}>Click me to count the number</button>
+      <button onClick={hendleEvent}>
+        Click me to count the number {count}
+      </button>
       <h1> {count}</h1>
     </>
   );
